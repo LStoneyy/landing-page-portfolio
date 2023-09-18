@@ -141,7 +141,45 @@ h2 {
     text-align: end;
 }
 
-.secfour {}
+.secfour {
+    margin: 80px 100px 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secfourinner {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+
+.secfourleft {
+    text-align: justify;
+    flex-basis: 600px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.secfourbutton {
+    background-color: #3882f6;
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: white;
+    font-size: large;
+    padding: 8px 32px;
+    font-weight: bold;
+}
 
 button {
     cursor: pointer;
@@ -152,5 +190,5 @@ button {
     color: #e5e7eb;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
 }
